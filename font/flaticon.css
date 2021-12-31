@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?22105840079a38875fa525ae3cf2c418") format("truetype"),
+url("./flaticon.woff?22105840079a38875fa525ae3cf2c418") format("woff"),
+url("./flaticon.woff2?22105840079a38875fa525ae3cf2c418") format("woff2"),
+url("./flaticon.eot?22105840079a38875fa525ae3cf2c418#iefix") format("embedded-opentype"),
+url("./flaticon.svg?22105840079a38875fa525ae3cf2c418#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-volume-control-settings:before {
+    content: "\f101";
+}
+.flaticon-insert-picture-icon:before {
+    content: "\f102";
+}
+.flaticon-frame:before {
+    content: "\f103";
+}
+.flaticon-book:before {
+    content: "\f104";
+}
+.flaticon-graphic-page-symbol:before {
+    content: "\f105";
+}
+.flaticon-alarm-clock:before {
+    content: "\f106";
+}
+.flaticon-computer:before {
+    content: "\f107";
+}
+.flaticon-home-icon-silhouette:before {
+    content: "\f108";
+}
+.flaticon-rec:before {
+    content: "\f109";
+}
+.flaticon-chat:before {
+    content: "\f10a";
+}

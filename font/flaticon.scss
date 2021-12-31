@@ -1,0 +1,65 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?22105840079a38875fa525ae3cf2c418") format("truetype"),
+url("./flaticon.woff?22105840079a38875fa525ae3cf2c418") format("woff"),
+url("./flaticon.woff2?22105840079a38875fa525ae3cf2c418") format("woff2"),
+url("./flaticon.eot?22105840079a38875fa525ae3cf2c418#iefix") format("embedded-opentype"),
+url("./flaticon.svg?22105840079a38875fa525ae3cf2c418#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "volume-control-settings": "\f101",
+    "insert-picture-icon": "\f102",
+    "frame": "\f103",
+    "book": "\f104",
+    "graphic-page-symbol": "\f105",
+    "alarm-clock": "\f106",
+    "computer": "\f107",
+    "home-icon-silhouette": "\f108",
+    "rec": "\f109",
+    "chat": "\f10a",
+);
+
+.flaticon-volume-control-settings:before {
+    content: map-get($flaticon-map, "volume-control-settings");
+}
+.flaticon-insert-picture-icon:before {
+    content: map-get($flaticon-map, "insert-picture-icon");
+}
+.flaticon-frame:before {
+    content: map-get($flaticon-map, "frame");
+}
+.flaticon-book:before {
+    content: map-get($flaticon-map, "book");
+}
+.flaticon-graphic-page-symbol:before {
+    content: map-get($flaticon-map, "graphic-page-symbol");
+}
+.flaticon-alarm-clock:before {
+    content: map-get($flaticon-map, "alarm-clock");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.flaticon-home-icon-silhouette:before {
+    content: map-get($flaticon-map, "home-icon-silhouette");
+}
+.flaticon-rec:before {
+    content: map-get($flaticon-map, "rec");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
